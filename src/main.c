@@ -97,7 +97,7 @@ static int cmd_run(int argc, char **argv) {
     double elapsed = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / 1e9;
 
     printf("\n=== Audit Result ===\n");
-    printf("Command:   %s\n", cmd_argv);
+    printf("Command:   %s\n", cmd_argv[0]);
     printf("Exit code: %d\n", rc);
     printf("Time:      %.4fs\n", elapsed);
     printf("Gateway:   %s\n", g_use_gateway ? "enabled" : "disabled (local only)");
