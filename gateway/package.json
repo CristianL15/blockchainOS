@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-auditor-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.0",
+    "@hyperledger/fabric-gateway": "^1.8.0",
+    "express": "^4.21.0"
+  }
+}

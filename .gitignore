@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build output
+obj/
+auditor
+
+# Environment variables
+.env
+
+# Logs
+log/
+*.log
+
+# Fabric generated artifacts
+fabric/channel-artifacts/
+fabric/crypto-config/
+fabric/tls_root_cert.pem
+fabric/tls/
+
+# Gateway generated/copied config
+gateway/connection-profile.yaml
+gateway/credentials/
+gateway/crypto-config/
+gateway/crypto-config.yaml
+gateway/package-lock.json
+
+# Chaincode lockfile
+chaincode/package-lock.json
