@@ -53,7 +53,7 @@ de forma inmutable en una blockchain de Hyperledger Fabric.
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <repo-url> blockchainOS
+git clone https://github.com/CristianL15/blockchainOS blockchainOS
 cd blockchainOS
 ```
 
